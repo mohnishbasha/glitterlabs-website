@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Solutions — Edge AI, Agents &amp; LLMs | Glitter</title>
+  <meta name="description" content="Explore Glitter's AI solutions: Edge AI, Vertical AI, multi-agent systems, and production LLM frameworks built for real-world enterprise outcomes." />
+  <meta name="keywords" content="Edge AI solutions, Vertical AI, AI Agents, LLM Frameworks, enterprise AI India, production AI systems" />
+  <meta name="author" content="Glitter Technology Ventures Pvt. Ltd." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#fbbf24" />
+  <meta property="og:title" content="AI Solutions — Glitter Technology Ventures" />
+  <meta property="og:description" content="Edge AI, Vertical AI, AI Agents, and LLM Frameworks — production-ready AI solutions built for enterprise outcomes." />
+  <meta property="og:image" content="https://www.glitterlabs.com/og-image.png" />
+  <meta property="og:url" content="https://www.glitterlabs.com/solutions.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Glitter Technology Ventures" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Solutions — Glitter Technology Ventures" />
+  <meta name="twitter:description" content="Edge AI, Vertical AI, AI Agents, and LLM Frameworks." />
+  <meta name="twitter:image" content="https://www.glitterlabs.com/og-image.png" />
+  <link rel="canonical" href="https://www.glitterlabs.com/solutions.html" />
+  <link rel="alternate" hreflang="en" href="https://www.glitterlabs.com/solutions.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Glitter Technology Ventures Pvt. Ltd.",
+    "url": "https://www.glitterlabs.com",
+    "logo": "https://www.glitterlabs.com/og-image.png",
+    "description": "AI Studio and Generative AI Content & Workforce Distribution platform delivering outcome-driven AI solutions.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "301 Vidharbh, Vidarbha Theatre Commercial Complex, Azamshah Layout",
+      "addressLocality": "Nagpur",
+      "addressRegion": "Maharashtra",
+      "postalCode": "440024",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-97302-55246",
+      "contactType": "customer service",
+      "email": "hello@glitterlabs.com"
+    },
+    "sameAs": []
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.glitterlabs.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Solutions", "item": "https://www.glitterlabs.com/solutions.html"}
+    ]
+  }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            'gradient-x': 'gradient-x 8s ease infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4,0,0.6,1) infinite',
+          },
+          keyframes: {
+            'gradient-x': {
+              '0%, 100%': { 'background-position': '0% 50%' },
+              '50%': { 'background-position': '100% 50%' },
+            },
+            'float': {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-20px)' },
+            },
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+    .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); }
+    .glass-dark { background: rgba(255,255,255,0.85); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(0,0,0,0.08); }
+    .gradient-text { background: linear-gradient(135deg, #fbbf24, #f97316, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .gradient-bg { background: linear-gradient(135deg, #fed7aa, #bfdbfe, #a7f3d0); background-size: 400% 400%; animation: gradient-x 8s ease infinite; }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(245,158,11,0.15); }
+    .btn-primary { background: linear-gradient(135deg, #d97706, #0891b2); transition: all 0.3s ease; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(217,119,6,0.4); }
+    .btn-ghost { border: 1px solid rgba(0,0,0,0.15); transition: all 0.3s ease; }
+    .btn-ghost:hover { border-color: #d97706; background: rgba(217,119,6,0.1); transform: translateY(-2px); }
+    .neon-dot { width: 8px; height: 8px; background: #fbbf24; border-radius: 50%; box-shadow: 0 0 8px #fbbf24; }
+    .grid-bg { background-image: linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px); background-size: 50px 50px; }
+    body { background: linear-gradient(160deg, #fff7ed 0%, #eff6ff 55%, #f0fdf4 100%); background-attachment: fixed; min-height: 100vh; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #f3f4f6; }
+    ::-webkit-scrollbar-thumb { background: #d97706; border-radius: 3px; }
+    .arch-box { background: rgba(255,255,255,0.6); border: 1px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 10px 16px; font-size: 12px; font-family: monospace; color: #475569; }
+    .arch-arrow { color: rgba(0,0,0,0.25); font-size: 18px; display: flex; align-items: center; justify-content: center; }
+    .tag { background: rgba(217,119,6,0.15); border: 1px solid rgba(217,119,6,0.3); color: #b45309; border-radius: 999px; padding: 2px 10px; font-size: 11px; font-weight: 600; }
+    .tag-blue { background: rgba(6,182,212,0.15); border-color: rgba(6,182,212,0.3); color: #0e7490; }
+    .tag-green { background: rgba(20,184,166,0.15); border-color: rgba(20,184,166,0.3); color: #0f766e; }
+    .tag-orange { background: rgba(245,158,11,0.15); border-color: rgba(245,158,11,0.3); color: #b45309; }
+    .pillar-nav a { padding: 8px 20px; border-radius: 999px; font-size: 13px; font-weight: 600; transition: all 0.2s; color: #6b7280; }
+    .pillar-nav a:hover, .pillar-nav a.active { background: rgba(217,119,6,0.15); color: #92400e; border-color: rgba(217,119,6,0.4); }
+    .outcome-bar { height: 4px; border-radius: 2px; margin-top: 6px; }
+  </style>
+</head>
+<body class="text-gray-800 overflow-x-hidden">
+
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-amber-500 text-white px-4 py-2 rounded-lg z-50 font-semibold">Skip to main content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header role="banner">
+  <nav aria-label="Main navigation" class="fixed top-0 left-0 right-0 z-50 glass-dark">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-500 to-cyan-500 flex items-center justify-center text-sm font-black text-white">G</div>
+        <span class="text-xl font-black tracking-tight text-gray-900">Glitter Technology Ventures</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
+        <a href="index.html" class="hover:text-amber-600 transition-colors">Home</a>
+        <a href="solutions.html" class="text-amber-600">Solutions</a>
+        <a href="about.html" class="hover:text-amber-600 transition-colors">About</a>
+        <a href="careers.html" class="hover:text-amber-600 transition-colors">Careers</a>
+        <a href="contact.html" class="hover:text-amber-600 transition-colors">Contact</a>
+      </div>
+      <a href="mailto:hello@glitterlabs.com" class="hidden md:inline-flex btn-primary text-white text-sm font-semibold px-5 py-2 rounded-full">
+        Partner With Us
+      </a>
+      <button class="md:hidden p-2 rounded-lg glass" aria-expanded="false" aria-controls="mobile-menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-100 px-6 py-4 space-y-3 text-sm font-medium text-gray-700">
+      <a href="index.html" class="block hover:text-amber-600">Home</a>
+      <a href="solutions.html" class="block text-amber-600">Solutions</a>
+      <a href="about.html" class="block hover:text-amber-600">About</a>
+      <a href="careers.html" class="block hover:text-amber-600">Careers</a>
+      <a href="contact.html" class="block hover:text-amber-600">Contact</a>
+    </div>
+  </nav>
+  </header>
+
+  <main id="main-content" role="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="relative pt-32 pb-20 px-6 overflow-hidden gradient-bg grid-bg">
+    <div class="absolute top-1/4 left-1/3 w-80 h-80 bg-amber-600/15 rounded-full blur-3xl animate-pulse-slow"></div>
+    <div class="absolute bottom-0 right-1/3 w-64 h-64 bg-cyan-600/15 rounded-full blur-3xl animate-float"></div>
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-xs font-semibold text-amber-700 mb-6 border border-amber-500/30">
+        <div class="neon-dot animate-pulse"></div>
+        Solutions Deep Dive
+      </div>
+      <h1 class="text-5xl md:text-6xl font-black mb-6 leading-tight text-gray-900">
+        Four Pillars.<br/>
+        <span class="gradient-text">One Outcome: Impact.</span>
+      </h1>
+      <p class="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        Each solution is built around a clear problem, a battle-tested architecture, and a measurable real-world outcome. No fluff — just systems that work.
+      </p>
+    </div>
+
+    <!-- Pillar nav -->
+    <div class="max-w-3xl mx-auto mt-10 relative z-10">
+      <div class="pillar-nav flex flex-wrap justify-center gap-3">
+        <a href="#edge" class="border border-gray-200">⚡ Edge AI</a>
+        <a href="#vertical" class="border border-gray-200">🧠 Vertical AI</a>
+        <a href="#agents" class="border border-gray-200">🤖 AI Agents</a>
+        <a href="#llm" class="border border-gray-200">🔧 LLM Frameworks</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDGE AI ===== -->
+  <section id="edge" class="py-24 px-6 scroll-mt-20">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-amber-400 mb-4 border border-amber-500/30 bg-amber-900/10">
+            ⚡ Edge AI
+          </div>
+          <h2 class="text-4xl font-black mb-5 leading-tight text-gray-800">
+            Intelligence That Lives<br/><span style="background: linear-gradient(135deg, #fbbf24, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">at the Device</span>
+          </h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Cloud inference is a bottleneck. Round-trip latency, connectivity dependencies, and cost-at-scale make it unsuitable for a growing category of intelligence needs — autonomous systems, real-time safety, offline environments, and privacy-critical applications.
+          </p>
+          <p class="text-gray-600 mb-8 leading-relaxed">
+            We build, compress, and deploy AI models directly onto edge hardware — making intelligence instantaneous, private, and independent of network conditions.
+          </p>
+
+          <!-- Use cases -->
+          <h3 class="font-bold mb-3 text-sm uppercase tracking-widest text-gray-500">Real-World Use Cases</h3>
+          <div class="space-y-3 mb-8">
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">01</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Smart Manufacturing</div>
+                <div class="text-gray-600 text-xs">Defect detection at production line speed — no cloud bottleneck, zero latency tolerance violation.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">02</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">AI-Powered Mobile Apps</div>
+                <div class="text-gray-600 text-xs">On-device NLP, vision, and recommendation — works offline, protects user data, responds instantly.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">03</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Autonomous Robotics & Drones</div>
+                <div class="text-gray-600 text-xs">Real-time perception and decision-making at millisecond speed where cloud latency would be catastrophic.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">04</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Retail & Smart Spaces</div>
+                <div class="text-gray-600 text-xs">In-store behavior analytics, shelf intelligence, and customer experience AI — all local, all real-time.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Architecture diagram -->
+          <div class="glass rounded-2xl p-7 mb-6">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-5">Architecture Overview</div>
+            <div class="space-y-3">
+              <div class="arch-box">📦 Foundation Model (Cloud-scale)</div>
+              <div class="arch-arrow">↓ Quantization + Pruning + Distillation</div>
+              <div class="arch-box">🧬 Optimized Inference Model (ONNX / TFLite / CoreML)</div>
+              <div class="arch-arrow">↓ Deploy to Target Hardware</div>
+              <div class="grid grid-cols-3 gap-2">
+                <div class="arch-box text-center">📱<br/>Mobile</div>
+                <div class="arch-box text-center">🤖<br/>Robot</div>
+                <div class="arch-box text-center">📷<br/>Camera / IoT</div>
+              </div>
+              <div class="arch-arrow">↓ Local Inference Loop</div>
+              <div class="arch-box text-teal-400">✅ &lt;50ms · No cloud · Privacy-safe · Always-on</div>
+            </div>
+          </div>
+
+          <!-- Outcomes -->
+          <div class="glass rounded-2xl p-7">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-4">Measured Outcomes</div>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Inference Latency Reduction</span>
+                  <span class="text-amber-400 font-bold">95%</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:95%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Cloud Cost Reduction</span>
+                  <span class="text-amber-400 font-bold">80%</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Model Size Compression</span>
+                  <span class="text-amber-400 font-bold">10-100x</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="max-w-6xl mx-auto px-6"><div class="border-t border-gray-200"></div></div>
+
+  <!-- ===== VERTICAL AI ===== -->
+  <section id="vertical" class="py-24 px-6 scroll-mt-20">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+
+        <div>
+          <!-- Architecture diagram -->
+          <div class="glass rounded-2xl p-7 mb-6">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-5">Architecture Overview</div>
+            <div class="space-y-3">
+              <div class="arch-box">🌍 General-Purpose LLM (Base Model)</div>
+              <div class="arch-arrow">↓ Domain Data Collection + Curation</div>
+              <div class="arch-box">📚 Fine-tuning / RLHF / RAG Layer</div>
+              <div class="arch-arrow">↓ Domain Validation + Expert Eval</div>
+              <div class="grid grid-cols-3 gap-2">
+                <div class="arch-box text-center">⚕️<br/>Health</div>
+                <div class="arch-box text-center">⚖️<br/>Legal</div>
+                <div class="arch-box text-center">💰<br/>Finance</div>
+              </div>
+              <div class="arch-arrow">↓ Production API + Guardrails</div>
+              <div class="arch-box text-cyan-400">✅ Expert-level · Domain-safe · Auditable</div>
+            </div>
+          </div>
+
+          <!-- Outcomes -->
+          <div class="glass rounded-2xl p-7">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-4">Measured Outcomes</div>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Domain Accuracy vs. Base Model</span>
+                  <span class="text-cyan-400 font-bold">+45%</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-cyan-600 to-cyan-400" style="width:75%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Specialist Labor Cost Reduction</span>
+                  <span class="text-cyan-400 font-bold">60%</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-cyan-600 to-cyan-400" style="width:60%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Time-to-Decision Acceleration</span>
+                  <span class="text-cyan-400 font-bold">8x</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-cyan-600 to-cyan-400" style="width:88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-cyan-400 mb-4 border border-cyan-500/30 bg-cyan-900/10">
+            🧠 Vertical AI
+          </div>
+          <h2 class="text-4xl font-black mb-5 leading-tight text-gray-800">
+            Domain-Expert AI<br/><span style="background: linear-gradient(135deg, #22d3ee, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">at Scale</span>
+          </h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            General-purpose models fail where precision matters most. They hallucinate in legal contexts, miss clinical nuance, and lack the institutional knowledge that makes expert judgment valuable. The answer isn't a bigger model — it's the right model for the domain.
+          </p>
+          <p class="text-gray-600 mb-8 leading-relaxed">
+            We build Vertical AI systems fine-tuned on domain-specific datasets, augmented with RAG pipelines, and governed by expert-validated guardrails — delivering AI that earns the trust of domain professionals.
+          </p>
+
+          <h3 class="font-bold mb-3 text-sm uppercase tracking-widest text-gray-500">Real-World Use Cases</h3>
+          <div class="space-y-3">
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-cyan-400 font-bold text-sm shrink-0">01</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Clinical Documentation AI</div>
+                <div class="text-gray-600 text-xs">Physicians speak, AI captures structured SOAP notes with ICD-10 coding — reducing charting time by 70%.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-cyan-400 font-bold text-sm shrink-0">02</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Legal Contract Analysis</div>
+                <div class="text-gray-600 text-xs">AI reviews, flags, and summarizes contract clauses at hundreds of pages per minute — at associate-level accuracy.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-cyan-400 font-bold text-sm shrink-0">03</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Financial Risk Intelligence</div>
+                <div class="text-gray-600 text-xs">Continuous monitoring of filings, macro signals, and portfolio exposure — surfacing risks before they hit analysts' desks.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-cyan-400 font-bold text-sm shrink-0">04</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Industrial Maintenance AI</div>
+                <div class="text-gray-600 text-xs">Predictive maintenance systems trained on sensor data and maintenance logs — preventing failures before they happen.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="max-w-6xl mx-auto px-6"><div class="border-t border-gray-200"></div></div>
+
+  <!-- ===== AI AGENTS ===== -->
+  <section id="agents" class="py-24 px-6 bg-blue-50/80 scroll-mt-20">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-teal-400 mb-4 border border-teal-500/30 bg-teal-900/20">
+            🤖 AI Agents
+          </div>
+          <h2 class="text-4xl font-black mb-5 leading-tight text-gray-800">
+            Autonomous Workflows<br/><span style="background: linear-gradient(135deg, #2dd4bf, #14b8a6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">at 10x Velocity</span>
+          </h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Knowledge workers are expensive. And they spend most of their time on tasks that shouldn't require their full intelligence — scheduling, research synthesis, data processing, coordination, reporting. AI Agents change the economics entirely.
+          </p>
+          <p class="text-gray-600 mb-8 leading-relaxed">
+            We build autonomous AI agents and copilot systems that take over multi-step workflows, collaborate with humans at decision points, and run continuously without fatigue — letting your team focus on the 20% of work that actually requires human judgment.
+          </p>
+
+          <h3 class="font-bold mb-3 text-sm uppercase tracking-widest text-gray-500">Agent Types We Build</h3>
+          <div class="space-y-3 mb-8">
+            <div class="glass rounded-xl p-4 flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-teal-900/20 border border-teal-500/20 flex items-center justify-center text-lg shrink-0">🔍</div>
+              <div>
+                <div class="font-semibold text-sm">Research & Synthesis Agents</div>
+                <div class="text-gray-600 text-xs">Continuously gather, read, and summarize information from specified sources — delivering structured intelligence on demand.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-teal-900/20 border border-teal-500/20 flex items-center justify-center text-lg shrink-0">⚙️</div>
+              <div>
+                <div class="font-semibold text-sm">Workflow Automation Agents</div>
+                <div class="text-gray-600 text-xs">End-to-end task execution across tools and APIs — from data entry to email triage to CRM updates.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-teal-900/20 border border-teal-500/20 flex items-center justify-center text-lg shrink-0">💬</div>
+              <div>
+                <div class="font-semibold text-sm">Copilots & Assistant Agents</div>
+                <div class="text-gray-600 text-xs">Domain-aware conversational AI embedded in your product or internal tools — giving every user an expert in their pocket.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-teal-900/20 border border-teal-500/20 flex items-center justify-center text-lg shrink-0">🔄</div>
+              <div>
+                <div class="font-semibold text-sm">Multi-Agent Orchestration</div>
+                <div class="text-gray-600 text-xs">Hierarchical agent systems where specialist agents collaborate, delegate, and self-correct under a supervisor agent.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Architecture diagram -->
+          <div class="glass rounded-2xl p-7 mb-6">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-5">Multi-Agent Architecture</div>
+            <div class="space-y-3">
+              <div class="arch-box text-center font-semibold text-gray-800">🧠 Orchestrator Agent</div>
+              <div class="arch-arrow">↓ Task Decomposition + Routing</div>
+              <div class="grid grid-cols-3 gap-2">
+                <div class="arch-box text-center text-xs">🔍 Research<br/>Agent</div>
+                <div class="arch-box text-center text-xs">✍️ Writer<br/>Agent</div>
+                <div class="arch-box text-center text-xs">✅ Review<br/>Agent</div>
+              </div>
+              <div class="arch-arrow">↓ Results Aggregation</div>
+              <div class="arch-box">🔧 Tool Integrations (APIs, DBs, Web)</div>
+              <div class="arch-arrow">↓ Human-in-the-Loop (when needed)</div>
+              <div class="arch-box text-teal-400">✅ Autonomous execution with human guardrails</div>
+            </div>
+          </div>
+
+          <!-- Workforce angle -->
+          <div class="glass rounded-2xl p-7">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-4">Human + AI Workforce Model</div>
+            <div class="space-y-3 text-sm text-gray-600">
+              <div class="flex items-start gap-3">
+                <div class="neon-dot mt-1 shrink-0 animate-pulse"></div>
+                <div><span class="font-medium text-gray-800">Humans define objectives</span> — strategy, judgment calls, creative direction</div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="neon-dot mt-1 shrink-0 animate-pulse" style="animation-delay:0.5s"></div>
+                <div><span class="font-medium text-gray-800">Agents execute autonomously</span> — research, drafting, processing, coordination</div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="neon-dot mt-1 shrink-0 animate-pulse" style="animation-delay:1s"></div>
+                <div><span class="font-medium text-gray-800">Humans review at checkpoints</span> — approval gates for high-stakes outputs</div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="neon-dot mt-1 shrink-0 animate-pulse" style="animation-delay:1.5s"></div>
+                <div><span class="font-medium text-gray-800">Feedback loop improves agents</span> — systems get smarter with every cycle</div>
+              </div>
+            </div>
+            <div class="mt-5 grid grid-cols-3 gap-3 text-center text-xs">
+              <div class="glass rounded-lg p-2">
+                <div class="text-teal-400 font-bold text-lg">70%</div>
+                <div class="text-gray-500">less manual work</div>
+              </div>
+              <div class="glass rounded-lg p-2">
+                <div class="text-teal-400 font-bold text-lg">10x</div>
+                <div class="text-gray-500">team throughput</div>
+              </div>
+              <div class="glass rounded-lg p-2">
+                <div class="text-teal-400 font-bold text-lg">24/7</div>
+                <div class="text-gray-500">operation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="max-w-6xl mx-auto px-6"><div class="border-t border-gray-200"></div></div>
+
+  <!-- ===== LLM FRAMEWORKS ===== -->
+  <section id="llm" class="py-24 px-6 scroll-mt-20">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+
+        <div>
+          <!-- Architecture diagram -->
+          <div class="glass rounded-2xl p-7 mb-6">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-5">Production LLM Stack</div>
+            <div class="space-y-3">
+              <div class="grid grid-cols-3 gap-2 text-xs">
+                <div class="arch-box text-center">🧾 Prompt<br/>Engineering</div>
+                <div class="arch-box text-center">📚 RAG<br/>Pipeline</div>
+                <div class="arch-box text-center">🔄 Memory<br/>Systems</div>
+              </div>
+              <div class="arch-arrow">↓ LLM Orchestration Layer</div>
+              <div class="arch-box">🔧 Tool Use · Function Calling · Router Logic</div>
+              <div class="arch-arrow">↓ Model Abstraction</div>
+              <div class="grid grid-cols-3 gap-2 text-xs">
+                <div class="arch-box text-center">OpenAI<br/>GPT-4o</div>
+                <div class="arch-box text-center">Anthropic<br/>Claude</div>
+                <div class="arch-box text-center">Open<br/>Source</div>
+              </div>
+              <div class="arch-arrow">↓ Observability + Eval Framework</div>
+              <div class="arch-box text-amber-400">✅ Traceable · Testable · Cost-optimized</div>
+            </div>
+          </div>
+
+          <!-- Outcomes -->
+          <div class="glass rounded-2xl p-7">
+            <div class="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-4">Measured Outcomes</div>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Time-to-Production (vs. scratch)</span>
+                  <span class="text-amber-400 font-bold">5x faster</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:83%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>LLM Cost Optimization</span>
+                  <span class="text-amber-400 font-bold">40%</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:40%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span>Eval-Driven Quality Improvement</span>
+                  <span class="text-amber-400 font-bold">Continuous</span>
+                </div>
+                <div class="outcome-bar bg-gray-200">
+                  <div class="outcome-bar bg-gradient-to-r from-amber-600 to-amber-400" style="width:90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-amber-400 mb-4 border border-amber-500/30 bg-amber-900/10">
+            🔧 LLM Frameworks
+          </div>
+          <h2 class="text-4xl font-black mb-5 leading-tight text-gray-800">
+            From Prototype to<br/><span style="background: linear-gradient(135deg, #fbbf24, #d97706); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Production-Grade</span>
+          </h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Most LLM applications don't fail because the model is bad. They fail because the surrounding infrastructure is fragile — brittle prompt chains, no observability, untestable logic, and vendor lock-in that makes model switching expensive.
+          </p>
+          <p class="text-gray-600 mb-8 leading-relaxed">
+            We build the scaffolding that makes LLM applications reliable, observable, and cost-efficient in production — from RAG architecture to evaluation frameworks to multi-model orchestration.
+          </p>
+
+          <h3 class="font-bold mb-3 text-sm uppercase tracking-widest text-gray-500">Framework Components</h3>
+          <div class="space-y-3">
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">01</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Prompt Engineering Systems</div>
+                <div class="text-gray-600 text-xs">Structured prompt libraries, version control, A/B testing infrastructure, and template management for large-scale LLM applications.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">02</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">RAG Pipeline Architecture</div>
+                <div class="text-gray-600 text-xs">End-to-end retrieval-augmented generation: chunking, embedding, vector storage, hybrid search, and reranking — built for production retrieval quality.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">03</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Orchestration & Routing Layer</div>
+                <div class="text-gray-600 text-xs">Model-agnostic routing logic that selects optimal models by task type, cost, and latency — with fallback chains and circuit breakers.</div>
+              </div>
+            </div>
+            <div class="glass rounded-xl p-4 flex items-start gap-3">
+              <span class="text-amber-400 font-bold text-sm shrink-0">04</span>
+              <div>
+                <div class="font-semibold text-sm mb-1 text-gray-800">Evaluation & Observability</div>
+                <div class="text-gray-600 text-xs">Automated evaluation pipelines, LLM-as-judge systems, trace logging, cost attribution, and quality dashboards for every production request.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="py-24 px-6 bg-gradient-to-r from-amber-100 to-blue-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="glass rounded-3xl p-12 md:p-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-amber-100/40 via-transparent to-cyan-100/20 pointer-events-none"></div>
+        <div class="absolute top-0 left-0 w-64 h-64 bg-amber-300/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="relative z-10">
+          <div class="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-xs font-semibold text-amber-600 mb-6 border border-amber-500/20">
+            <div class="neon-dot animate-pulse"></div>
+            Ready to Build?
+          </div>
+          <h2 class="text-4xl md:text-5xl font-black mb-4 text-gray-900">
+            Which Pillar Fits<br/><span class="gradient-text">Your Challenge?</span>
+          </h2>
+          <p class="text-gray-600 mb-8 max-w-xl mx-auto">
+            Every engagement starts with a deep-dive into your problem space. Tell us where you are, and we'll design the architecture that gets you to production outcomes — fast.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="mailto:hello@glitterlabs.com" class="btn-primary text-white font-semibold px-8 py-4 rounded-full text-sm inline-flex items-center gap-2 justify-center">
+              Start a Conversation
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+            <a href="about.html" class="btn-ghost text-gray-800 font-semibold px-8 py-4 rounded-full text-sm inline-flex items-center gap-2 justify-center">
+              About Glitter Technology Ventures
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer role="contentinfo" class="border-t border-white/10 py-16 px-6 bg-gray-900">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div class="md:col-span-2">
+        <a href="index.html" class="flex items-center gap-2 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-500 to-cyan-500 flex items-center justify-center text-sm font-black">G</div>
+          <span class="text-xl font-black tracking-tight">Glitter Technology Ventures</span>
+        </a>
+        <p class="text-gray-400 text-sm leading-relaxed max-w-xs">Glitter Technology Ventures Pvt. Ltd. — AI Studio · Generative AI Content & Workforce Distribution. From AI experimentation to real-world outcomes at scale.</p>
+        <div class="flex gap-4 mt-6">
+          <a href="#" class="glass w-9 h-9 rounded-lg flex items-center justify-center hover:border-amber-500/50 transition-colors text-gray-400 hover:text-white">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" class="glass w-9 h-9 rounded-lg flex items-center justify-center hover:border-amber-500/50 transition-colors text-gray-400 hover:text-white">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63 4.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-gray-200 mb-4">Quick Links</div>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="solutions.html" class="hover:text-white transition-colors">Solutions</a></li>
+          <li><a href="about.html" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="careers.html" class="hover:text-white transition-colors">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-gray-200 mb-4">Contact</div>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li>
+            <a href="mailto:hello@glitterlabs.com" class="hover:text-white transition-colors flex items-start gap-2">
+              <svg class="w-4 h-4 mt-0.5 shrink-0 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              hello@glitterlabs.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+919730255246" class="hover:text-white transition-colors flex items-start gap-2">
+              <svg class="w-4 h-4 mt-0.5 shrink-0 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              +91 97302 55246
+            </a>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-4 h-4 mt-0.5 shrink-0 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>301 Vidharbh, Azamshah Layout, Nagpur, MH 440024</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between text-xs text-gray-600">
+      <span>© 2026 Glitter Technology Ventures Pvt. Ltd. All rights reserved.</span>
+      <span class="mt-2 md:mt-0">Built with AI. Deployed at scale.</span>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('section > div').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+
+    // Highlight active pillar nav link based on scroll
+    const sections = ['edge','vertical','agents','llm'];
+    const links = document.querySelectorAll('.pillar-nav a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el && window.scrollY >= el.offsetTop - 120) current = id;
+      });
+      links.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

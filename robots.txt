@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.glitterlabs.com/sitemap.xml
+
+# Disallow admin or private paths (none currently, listed for future use)
+# Disallow: /admin/
