@@ -33,7 +33,7 @@ Skills.md       Reusable component patterns and design system reference
 - Maintain the shared design system (colors, glassmorphism, gradient-text) across all pages
 - Keep all inter-page navigation links consistent — if a nav link changes in one file, update it in all four
 - Use inline SVG for icons — no external icon library CDN calls
-- Use `mailto:hello@glitterlabs.com` for all contact and apply links
+- Use `mailto:projects@glitterlabs.com` for all contact and apply links
 - Preserve SEO meta tags (`<title>`, `<meta name="description">`, `<meta property="og:*">`) when editing pages
 
 ### Never
@@ -97,8 +97,8 @@ Home → index.html
 Solutions → solutions.html
 About → about.html
 Careers → careers.html
-Contact → mailto:hello@glitterlabs.com
-CTA button → mailto:hello@glitterlabs.com (text: "Partner With Us")
+Contact → mailto:projects@glitterlabs.com
+CTA button → mailto:projects@glitterlabs.com (text: "Partner With Us")
 ```
 
 **Footer quick links:** Same as above (Home, Solutions, About, Careers).
@@ -225,5 +225,5 @@ If the domain ever changes, update the canonical and og:url tags in all 4 HTML f
 - The company name "Glitter Technology Ventures Pvt. Ltd." — update site-wide if the user requests a rename
 - The 4-pillar solution structure (Edge AI, Vertical AI, AI Agents, LLM Frameworks)
 - The 3 open roles (Software Research Analyst, Growth & Partnerships Manager, AI Engineer)
-- The contact email `hello@glitterlabs.com`
+- The contact email `projects@glitterlabs.com`
 - `Prompt.md` content — this is the source-of-truth brief, only update when explicitly instructed

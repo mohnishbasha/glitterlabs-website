@@ -44,10 +44,10 @@ Fixed top navbar with glassmorphism, responsive mobile toggle.
       <a href="solutions.html" class="hover:text-purple-400 transition-colors">Solutions</a>
       <a href="about.html" class="hover:text-purple-400 transition-colors">About</a>
       <a href="careers.html" class="hover:text-purple-400 transition-colors">Careers</a>
-      <a href="mailto:hello@glitterlabs.com" class="hover:text-purple-400 transition-colors">Contact</a>
+      <a href="mailto:projects@glitterlabs.com" class="hover:text-purple-400 transition-colors">Contact</a>
     </div>
     <!-- CTA -->
-    <a href="mailto:hello@glitterlabs.com" class="hidden md:inline-flex btn-primary text-white text-sm font-semibold px-5 py-2 rounded-full">
+    <a href="mailto:projects@glitterlabs.com" class="hidden md:inline-flex btn-primary text-white text-sm font-semibold px-5 py-2 rounded-full">
       Partner With Us
     </a>
     <!-- Mobile toggle -->
@@ -63,7 +63,7 @@ Fixed top navbar with glassmorphism, responsive mobile toggle.
     <a href="solutions.html" class="block hover:text-purple-400">Solutions</a>
     <a href="about.html" class="block hover:text-purple-400">About</a>
     <a href="careers.html" class="block hover:text-purple-400">Careers</a>
-    <a href="mailto:hello@glitterlabs.com" class="block hover:text-purple-400">Contact</a>
+    <a href="mailto:projects@glitterlabs.com" class="block hover:text-purple-400">Contact</a>
   </div>
 </nav>
 ```
@@ -318,7 +318,7 @@ Full-width centered CTA with gradient overlay and glow.
         </h2>
         <p class="text-gray-400 mb-8 max-w-lg mx-auto">Supporting copy.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="mailto:hello@glitterlabs.com" class="btn-primary text-white font-semibold px-8 py-4 rounded-full text-sm inline-flex items-center gap-2 justify-center">
+          <a href="mailto:projects@glitterlabs.com" class="btn-primary text-white font-semibold px-8 py-4 rounded-full text-sm inline-flex items-center gap-2 justify-center">
             Primary Action
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -373,7 +373,7 @@ Full job listing card with description, bullet points, tags, and apply CTA.
     </div>
     <!-- Apply CTA -->
     <div class="md:shrink-0">
-      <a href="mailto:hello@glitterlabs.com?subject=Application: Role Title" class="btn-primary text-white font-semibold px-6 py-3 rounded-full text-sm inline-flex items-center gap-2 whitespace-nowrap">
+      <a href="mailto:projects@glitterlabs.com?subject=Application: Role Title" class="btn-primary text-white font-semibold px-6 py-3 rounded-full text-sm inline-flex items-center gap-2 whitespace-nowrap">
         Apply Now
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -432,7 +432,7 @@ Consistent 4-column footer used on all pages.
     <div>
       <div class="text-sm font-semibold text-gray-200 mb-4">Contact</div>
       <ul class="space-y-2 text-sm text-gray-400">
-        <li><a href="mailto:hello@glitterlabs.com" class="hover:text-white transition-colors">hello@glitterlabs.com</a></li>
+        <li><a href="mailto:projects@glitterlabs.com" class="hover:text-white transition-colors">projects@glitterlabs.com</a></li>
       </ul>
     </div>
   </div>

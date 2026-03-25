@@ -144,7 +144,7 @@ Each page includes:
 ## Customization Guide
 
 ### Update Contact Email
-Search and replace `hello@glitterlabs.com` across all HTML files.
+Search and replace `projects@glitterlabs.com` across all HTML files.
 
 ### Update Company Name / Logo
 - Logo text: search for `Glitter Technology Ventures Pvt. Ltd.` in all files
