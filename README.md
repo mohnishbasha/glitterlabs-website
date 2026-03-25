@@ -2,7 +2,7 @@
 
 > AI Systems That Deliver Outcomes — Not Just Demos
 
-A complete, production-ready multi-page static website for **Glitter Technology Ventures Pvt. Ltd.**, an AI Studio and Generative AI Content & Workforce Distribution platform. Built for GitHub Pages deployment — no build step, no server required.
+A complete, production-ready multi-page static website for **Glitter Technology Ventures Pvt. Ltd.**, an AI Studio and Generative AI Content & Distributed AI Teams platform. Built for GitHub Pages deployment — no build step, no server required.
 
 ---
 
@@ -172,7 +172,7 @@ Search for `href="#"` within the `<footer>` sections to replace with real Linked
 - Stats bar (4 headline metrics)
 - Solution Pillars (4-card grid, Problem → Solution → Outcome)
 - Outcomes / Use Cases (3 metric cards + 4 use case tiles)
-- Content & Workforce Distribution Engine (diagram + feature list)
+- Content & Distributed AI Teams Engine (diagram + feature list)
 - CTA section
 
 ### about.html

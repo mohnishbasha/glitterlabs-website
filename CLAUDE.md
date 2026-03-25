@@ -6,7 +6,7 @@ Instructions for Claude Code when working on this project.
 
 ## Project Overview
 
-Static multi-page website for Glitter Technology Ventures Pvt. Ltd. — an AI Studio and Generative AI Content & Workforce Distribution platform. Four HTML pages, no build tools, deployed via GitHub Pages.
+Static multi-page website for Glitter Technology Ventures Pvt. Ltd. — an AI Studio and Generative AI Content & Distributed AI Teams platform. Four HTML pages, no build tools, deployed via GitHub Pages.
 
 **Key constraint:** This is a pure static site. No npm, no bundler, no server-side code. All changes must remain deployable by opening an HTML file directly in a browser or pushing to GitHub Pages.
 
